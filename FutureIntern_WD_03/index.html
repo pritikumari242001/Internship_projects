@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Temperature Converter</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h2>Temperature Converter</h2>
+            <input type="text" id="value" />
+            <span id="noValue" style="color: red"></span>
+             <div class="radio-container">
+                <input type="radio" name="unit" id="celsius" />
+                <label for="celsius">Celsius</label>
+                <input type="radio" name="unit" id="fahrenheit" />
+                <label for="fahrenheit">Fahrenheit</label>
+            </div>
+            <span id="noUnit" style="color: red"></span>
+            <br /><br />
+            <button id="convert">Convert</button>
+            <p id="result"></p>
+        </div>
+        <script src="./convertor.js"></script>
+    </body>
+</html>

@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+*/ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.head {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+.header-image {
+    width: 100%;
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+}
+.header-image img {
+    width: 100%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    margin: 0 40px;
+}
+.nav-bar {
+    list-style: none;
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+.logo {
+    width: 20vh;
+}
+.head h3 {
+    font-size: 2.1rem;
+    color: whitesmoke;
+    font-weight: 400;
+}
+.Search {
+    display: flex;
+    width: 55vw;
+    height: 45px;
+    align-items: center;
+    border-radius: 10px;
+    background: white;
+    padding: 5px, 4px;
+}
+.Search .Search-item {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.Search .Search-item p {
+    color: gray;
+    border-right: 1px solid gray;
+    font-size: 15px;
+    margin-right: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.Search .Search-item input {
+    outline: none;
+    border: none;
+    width: 200%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.Search .Search-item:first-child {
+    width: 30%;
+    color: palevioletred;
+}
+.Search .Search-item:last-child {
+    width: 70%;
+    color: grey;
+}
+/* Section 1*/
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Adds space between the items */
+    flex-wrap: wrap; /* Wraps items onto new lines if necessary */
+    margin-bottom: 4rem;
+}
+
+.section-1 .section-1-item {
+    position: relative;
+    width: 15rem;
+    margin: 3px 5px; /* Corrected the syntax to use a space, not a comma */
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(236, 236, 236);
+}
+
+.section-1 .section-1-item img {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.section-1 .section-1-item .item-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    height: 25%;
+    z-index: 2;
+    padding: 10px; /* Adds padding to the details section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 .section-1-item .item-details h1 {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0; /* Ensures no extra space around the heading */
+}
+
+/* Section 3 */
+.section-3 {
+    width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.section-3 .section-3-heading {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 400px;
+}
+.section-3 .section-3-container .section-3-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-3 .section-3-container .section-3-items .section-3-item {
+    width: 100%;
+    max-width: 25%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(97, 97, 112);
+    padding: 20px;
+}
+.section-3 .section-3-container .section-3-items .section-3-item .item-head {
+    font-size: 1.2rem;
+    color: black;
+    margin: 0%;
+    margin-bottom: 5px;
+}
+.section-3 .section-3-container .section-3-items .section-3-item .item-subhead {
+    font-weight: lighter;
+    color: gray;
+    margin: 0;
+}
+/* section 4 */
+.section-4 {
+    height: 670px;
+    background-color: rgb(255, 251, 247);
+}
+.section-4-container {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-4-img {
+    width: 40%;
+}
+.section-4-img img {
+    width: 400px;
+}
+.section-4-content h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.section-4-content p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.section-4-download p {
+    font-size: 1rem;
+    font-weight: lighter;
+    color: grey;
+}
+.section-4-download img {
+    width: 40%;
+}
+.input {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #ffffff;
+    padding: 9px 9px;
+}
+.button {
+    background-color: #ef4f5f;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding: 10px 16px;
+}
+/* Section 5 */
+.section-5 {
+    border: solid;
+    height: 1950px;
+    width: 75vw;
+    margin: auto;
+}
+/* .section-5 .Question {
+     border: solid blue; 
+     height: 20%; 
+    position: relative; 
+} */
+.section-5 .Question.clickHere {
+    border: solid green;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    opacity: 0;
+}
+.section5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjusts spacing between icons */
+}
+
+.icon i {
+    font-size: 24px; /* Adjust the size of the icons */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+    color: #ef4f5f;
+}
+/* footer */
+section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+section p {
+    margin: 0;
+}
+
+section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
